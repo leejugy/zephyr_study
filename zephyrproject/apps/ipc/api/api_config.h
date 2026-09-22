@@ -1,0 +1,7 @@
+#ifndef __API_CONFIG_H__
+#define __API_CONFIG_H__
+
+#define CONFIG_YMODEM_RX_TIMEOUT 1000 * 10
+#define CONFIG_YMODEM_NACK_MAX_COUNT 100
+
+#endif

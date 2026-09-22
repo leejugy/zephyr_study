@@ -1,0 +1,50 @@
+# Available runners configured by board.cmake.
+runners:
+- stm32cubeprogrammer
+- openocd
+- jlink
+- pyocd
+- stlink_gdbserver
+
+# Default flash runner if --runner is not given.
+flash-runner: stm32cubeprogrammer
+
+# Default debug runner if --runner is not given.
+debug-runner: openocd
+
+# Common runner configuration values.
+config:
+  board_dir: E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom_boot
+  # Build outputs:
+  elf_file: bootloader.elf
+  hex_file: bootloader.hex
+  bin_file: bootloader.bin
+  # Host tools:
+  gdb: C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb-py.exe
+  openocd: C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/openocd/bin/openocd.exe
+  openocd_search:
+    - C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/openocd/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  stm32cubeprogrammer:
+    - --port=swd
+    - --reset-mode=hw
+  openocd:
+    - --cmd-load
+    - flash write_image erase
+    - --cmd-verify
+    - verify_image
+    - --cmd-post-verify
+    - reset halt
+    - --target-handle=_CHIPNAME.cpu0
+  jlink:
+    - --dt-flash=y
+    - --device=STM32H743XI
+    - --speed=4000
+  pyocd:
+    - --dt-flash=y
+    - --target=stm32h743xitx
+  stlink_gdbserver:
+    []
+

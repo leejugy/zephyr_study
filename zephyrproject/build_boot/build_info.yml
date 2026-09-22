@@ -1,0 +1,59 @@
+cmake:
+  application:
+    configuration-dir: 'E:/zephyr/zephyrproject/apps/bootloader'
+    source-dir: 'E:/zephyr/zephyrproject/apps/bootloader'
+  board:
+    name: 'stm32_h743xih6_custom_boot'
+    path:
+     - 'E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom_boot'
+    qualifiers: 'stm32h743xx'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'E:/zephyr/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom_boot/stm32_h743xih6_custom_boot.dts'
+    include-dirs:
+     - 'E:/zephyr/zephyrproject/modules/hal/ambiq/dts'
+     - 'E:/zephyr/zephyrproject/modules/hal/atmel/include'
+     - 'E:/zephyr/zephyrproject/modules/hal/bouffalolab/include'
+     - 'E:/zephyr/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'E:/zephyr/zephyrproject/modules/hal/gigadevice/include'
+     - 'E:/zephyr/zephyrproject/modules/hal/infineon/dts'
+     - 'E:/zephyr/zephyrproject/modules/hal/microchip/include'
+     - 'E:/zephyr/zephyrproject/modules/hal/microchip/dts'
+     - 'E:/zephyr/zephyrproject/modules/hal/nuvoton/dts'
+     - 'E:/zephyr/zephyrproject/modules/hal/nxp/dts'
+     - 'E:/zephyr/zephyrproject/modules/hal/stm32/dts'
+     - 'E:/zephyr/zephyrproject/modules/hal/ti/dts'
+     - 'E:/zephyr/zephyrproject/zephyr/include'
+     - 'E:/zephyr/zephyrproject/zephyr/include/zephyr'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/common'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/vendor'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/rx'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/x86'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/xtensa'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/sparc'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/riscv'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/posix'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/arm64'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/arm'
+     - 'E:/zephyr/zephyrproject/zephyr/dts/arc'
+     - 'E:/zephyr/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - 'E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom_boot/stm32_h743xih6_custom_boot_defconfig'
+     - 'E:/zephyr/zephyrproject/apps/bootloader/prj.conf'
+    user-files:
+     - 'E:/zephyr/zephyrproject/apps/bootloader/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/Administrator/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: 'E:/zephyr/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'E:\zephyr\.venv\Scripts\west build -p always -d build_boot .\apps\bootloader\ -b stm32_h743xih6_custom_boot'
+  topdir: 'E:\zephyr\zephyrproject'
+  version: '1.5.0'

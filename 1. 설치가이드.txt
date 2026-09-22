@@ -1,0 +1,203 @@
+파이썬 버전은 반드시 3.12를 사용
+
+1) venv 설치
+python3.12 -m venv .venv
+
+2) west 설치
+python3.12 -m pip install west
+
+캐시 오류 발생 시
+python3.12 -m pip install --no-cache-dir west
+
+3) zephyr 설치 및 업데이트
+west init -m https://github.com/zephyrproject-rtos/zephyr zephyrproject
+cd zephyrproject
+west update
+
+4) 파이썬 의존성 설치
+python3.12 -m pip install @((west packages pip) -split ' ')
+
+5) export
+west zephyr-export
+
+6) sdk 설치 (관리자 권한 없어야 됨)
+west sdk install
+
+7) board.cmake에 다음 추가
+include(${ZEPHYR_BASE}/boards/common/stlink_gdbserver.board.cmake)
+
+8) 빌드시 compile_commands.json 생성
+west config build.cmake-args -- -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+
+9) c_cpp_properties.json 작성
+{
+    "configurations": [
+        {
+            "name": "Zephyr STM32H743",
+            "compileCommands": [
+                "${workspaceFolder}/build/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}
+
+10) tasks.json 작성
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "process",
+            "label": "west configure",
+            "command": "cmd",
+            "args": [
+                "/d",
+                "/c",
+                "start",
+                "app gdbserver",
+                "powershell",
+                "-NoExit",
+                "-Command",
+                ". 'E:/zephyr/.venv/Scripts/Activate.ps1'"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "build app",
+            "command": "E:/zephyr/.venv/Scripts/Activate.ps1;cd E:/zephyr/zephyrproject;west build -d ./build_app",
+        },
+        {
+            "type": "shell",
+            "label": "build bootloader",
+            "command": "E:/zephyr/.venv/Scripts/Activate.ps1;cd E:/zephyr/zephyrproject;west build -d ./build_boot",
+        },
+        {
+            "type": "shell",
+            "label": "flash app",
+            "command": "E:/zephyr/.venv/Scripts/Activate.ps1;cd E:/zephyr/zephyrproject;west flash -d ./build_app",
+        },
+        {
+            "type": "shell",
+            "label": "flash bootloader",
+            "command": "E:/zephyr/.venv/Scripts/Activate.ps1;cd E:/zephyr/zephyrproject;west flash -d ./build_boot",
+        },
+        {
+            "type": "process",
+            "label": "start gdbserver with reset",
+            "command": "cmd",
+            "args": [
+                "/d",
+                "/c",
+                "start",
+                "boot gdbserver",
+                "powershell",
+                "-Command",
+                //todo freq 수정 or 옵션 제외
+                //west debugserver는 stlink_gdbserver에 상세 옵션(--frequency --shared를 넘길 수 없음) 따라서 직접 띄우도록 하자
+                "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/ST-LINK_gdbserver.EXE --stm32cubeprogrammer-path 'C:/ST/STM32CubeCLT_1.22.0/STM32CubeProgrammer/bin' --port-number 61234 --apid 0 --halt --swd --initialize-reset --shared --frequency 200"
+            ],
+            "dependsOn": [
+                "build bootloader"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "type": "process",
+            "label": "start gdbserver no reset",
+            "command": "cmd",
+            "args": [
+                "/d",
+                "/c",
+                "start",
+                "boot gdbserver",
+                "powershell",
+                "-Command",
+                //todo freq 수정 or 옵션 제외
+                //west debugserver는 stlink_gdbserver에 상세 옵션(--frequency --shared를 넘길 수 없음) 따라서 직접 띄우도록 하자, attach 하려면 어쩔 수 없이 강재로 써야함
+                "C:/ST/STM32CubeCLT_1.22.0/STLink-gdb-server/bin/ST-LINK_gdbserver.EXE --stm32cubeprogrammer-path 'C:/ST/STM32CubeCLT_1.22.0/STM32CubeProgrammer/bin' --port-number 61234 --apid 0 --swd -g --shared --frequency 200"
+            ],
+            "dependsOn": [
+                "build bootloader"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
+
+10) launch.json 작성
+{
+    //todo stlink에 문제가 있어 높은 클럭에서 안됨. 정품 stlink에서 실험 필요.
+    "configurations": [
+        {
+            "name": "zephyr stm32 launch app",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_app/zephyr/ipc.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver with reset",
+            "postAttachCommands": [
+                "tbreak main",
+                "load",
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+        {
+            "name": "zephyr stm32 launch boot",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_boot/zephyr/bootloader.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver with reset",
+            "postAttachCommands": [
+                "tbreak main",
+                "load",
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+        {
+            "name": "zephyr stm32 attach app",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_app/zephyr/ipc.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver no reset",
+            "postAttachCommands": [
+                "tbreak main"
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+        {
+            "name": "zephyr stm32 attach boot",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_boot/zephyr/bootloader.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver no reset",
+            "postAttachCommands": [
+                "tbreak main"
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+    ],
+}

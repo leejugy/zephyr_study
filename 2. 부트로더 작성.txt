@@ -1,0 +1,35 @@
+부트로더 앱 작성하기
+
+1. cmakelist 수정
+#cmake 프로젝트 이름
+project(bootloader)
+
+# 소스 경로 지정
+target_sources(app PRIVATE src/main.c)
+
+# 디렉토리 인클루드 경로
+target_include_directories(app PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
+
+2. board 분리
+boot용 보드 설정 따로 가져가기
+어플용 보드 설정 따로 가져가기
+
+3. 파티션 분리를 위해 prj.conf에 분리 설정
+CONFIG_USE_DT_CODE_PARTITION=y
+
+4. 파일 이름 설정
+CONFIG_KERNEL_BIN_NAME="bootloader"
+
+5. 최적화 옵션 없음
+CONFIG_NO_OPTIMIZATIONS=y
+CONFIG_DEBUG=y
+
+//todo 1. uart intterupt에 대해서 공부하기
+
+//todo 2. uart dma에 대해서 공부하기
+
+//todo 3. 링 버퍼 공부하기
+
+//todo 4. flash api 공부하기

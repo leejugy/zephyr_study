@@ -1,0 +1,75 @@
+{
+    //todo stlink에 문제가 있어 높은 클럭에서 안됨. 정품 stlink에서 실험 필요.
+    "configurations": [
+        {
+            "name": "zephyr stm32 launch app",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_app/zephyr/ipc.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver with reset app",
+            "postAttachCommands": [
+                "tbreak main",
+                "load",
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+        {
+            "name": "zephyr stm32 launch boot",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_boot/zephyr/bootloader.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver with reset bootloader",
+            "postAttachCommands": [
+                "tbreak main",
+                "load",
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+        {
+            "name": "zephyr stm32 attach app",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_app/zephyr/ipc.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver no reset app",
+            "postAttachCommands": [
+                "tbreak main"
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+        {
+            "name": "zephyr stm32 attach boot",
+            "type": "cortex-debug",
+            "request": "attach",
+            "executable": "E:/zephyr/zephyrproject/build_boot/zephyr/bootloader.elf",
+            "cwd": "E:/zephyr/zephyrproject",
+            "servertype": "external",
+            "gdbTarget": "localhost:61234",
+            "gdbPath": "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe",
+            "preLaunchTask": "start gdbserver no reset bootloader",
+            "postAttachCommands": [
+                "tbreak main"
+            ],
+            "overrideResetCommands": [
+                "monitor reset"
+            ]
+        },
+    ],
+}

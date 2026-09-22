@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Zephyr STM32H743",
+            "compileCommands": [
+                "${workspaceFolder}/build_boot/compile_commands.json",
+                "${workspaceFolder}/build_app/compile_commands.json"
+            ]
+        }
+    ],
+    "version": 4
+}
