@@ -1,0 +1,6 @@
+board:
+  name: stm32_h743xih6_custom
+  full_name: STM32 Custom board
+  vendor: st
+  socs:
+    - name: stm32h743xx
