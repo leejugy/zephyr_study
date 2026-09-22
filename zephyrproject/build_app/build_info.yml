@@ -5,14 +5,14 @@ cmake:
   board:
     name: 'stm32_h743xih6_custom'
     path:
-     - 'E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom'
+     - 'E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom'
     qualifiers: 'stm32h743xx'
     revision: ''
   devicetree:
     bindings-dirs:
      - 'E:/zephyr/zephyrproject/zephyr/dts/bindings'
     files:
-     - 'E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom.dts'
+     - 'E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom.dts'
     include-dirs:
      - 'E:/zephyr/zephyrproject/modules/hal/ambiq/dts'
      - 'E:/zephyr/zephyrproject/modules/hal/atmel/include'
@@ -42,7 +42,7 @@ cmake:
      - 'E:/zephyr/zephyrproject/zephyr/dts'
   kconfig:
     files:
-     - 'E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig'
+     - 'E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig'
      - 'E:/zephyr/zephyrproject/apps/ipc/prj.conf'
     user-files:
      - 'E:/zephyr/zephyrproject/apps/ipc/prj.conf'
@@ -54,6 +54,6 @@ cmake:
     zephyr-base: 'E:/zephyr/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: 'E:\zephyr\.venv\Scripts\west build -d .\build_app\ -p always -b stm32_h743xih6_custom .\apps\ipc'
+  command: 'E:\zephyr\.venv\Scripts\west build -b stm32_h743xih6_custom -p -d ./build_app ./apps/ipc -- -DBOARD_ROOT=E:/zephyr/zephyrproject/'
   topdir: 'E:\zephyr\zephyrproject'
   version: '1.5.0'

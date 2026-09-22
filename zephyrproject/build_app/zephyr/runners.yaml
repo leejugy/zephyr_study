@@ -14,7 +14,7 @@ debug-runner: openocd
 
 # Common runner configuration values.
 config:
-  board_dir: E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom
+  board_dir: E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom
   # Build outputs:
   elf_file: ipc.elf
   hex_file: ipc.hex

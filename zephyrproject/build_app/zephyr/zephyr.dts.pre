@@ -1,7 +1,7 @@
 # 0 "E:/zephyr/zephyrproject/zephyr/misc/empty_file.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 1
+# 1 "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 1
 
 
 
@@ -1694,7 +1694,7 @@
   };
  };
 };
-# 9 "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 2
+# 9 "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 2
 # 1 "E:/zephyr/zephyrproject/modules/hal/stm32/dts/st/h7/stm32h743xihx-pinctrl.dtsi" 1 3 4
 
 
@@ -7307,9 +7307,9 @@
   slew-rate = "high-speed";
  };
 };
-# 10 "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 2
+# 10 "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 2
 # 1 "E:/zephyr/zephyrproject/zephyr/include/zephyr/dt-bindings/input/input-event-codes.h" 1 3 4
-# 11 "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 2
+# 11 "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom.dts" 2
 
 / {
  model = "STMicroelectronics Custom Board by lee";

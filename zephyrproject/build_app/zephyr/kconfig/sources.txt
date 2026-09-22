@@ -1,6 +1,10 @@
 C:\Users\Administrator\zephyr-sdk-1.0.1\cmake\zephyr\Kconfig
+E:\zephyr\zephyrproject\boards\stm32_h743xih6_custom\Kconfig.defconfig
+E:\zephyr\zephyrproject\boards\stm32_h743xih6_custom\Kconfig.stm32_h743xih6_custom
 E:\zephyr\zephyrproject\build_app\Kconfig\Kconfig.dts
 E:\zephyr\zephyrproject\build_app\Kconfig\Kconfig.modules
+E:\zephyr\zephyrproject\build_app\Kconfig\Kconfig.shield
+E:\zephyr\zephyrproject\build_app\Kconfig\Kconfig.shield.defconfig
 E:\zephyr\zephyrproject\build_app\Kconfig\arch\Kconfig
 E:\zephyr\zephyrproject\build_app\Kconfig\boards\Kconfig
 E:\zephyr\zephyrproject\build_app\Kconfig\boards\Kconfig.defconfig
@@ -423,8 +427,6 @@ E:\zephyr\zephyrproject\zephyr\boards\shields\x_nucleo_wba25a1\Kconfig.shield
 E:\zephyr\zephyrproject\zephyr\boards\shields\zc143ac72mipi\Kconfig.defconfig
 E:\zephyr\zephyrproject\zephyr\boards\shields\zc143ac72mipi\Kconfig.shield
 E:\zephyr\zephyrproject\zephyr\boards\shields\zhaw_lumamatrix\Kconfig.shield
-E:\zephyr\zephyrproject\zephyr\boards\st\stm32_h743xih6_custom\Kconfig.defconfig
-E:\zephyr\zephyrproject\zephyr\boards\st\stm32_h743xih6_custom\Kconfig.stm32_h743xih6_custom
 E:\zephyr\zephyrproject\zephyr\drivers\Kconfig
 E:\zephyr\zephyrproject\zephyr\drivers\adc\Kconfig
 E:\zephyr\zephyrproject\zephyr\drivers\adc\Kconfig.ad405x

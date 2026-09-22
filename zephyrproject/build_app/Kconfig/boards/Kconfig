@@ -1,2 +1,2 @@
 # Load Zephyr board Kconfig descriptions.
-osource "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/Kconfig"
+osource "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/Kconfig"

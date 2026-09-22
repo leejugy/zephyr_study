@@ -671,7 +671,7 @@
     "y",
     "assign",
     [
-      "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
+      "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
       4
     ]
   ],
@@ -1058,7 +1058,7 @@
     "y",
     "assign",
     [
-      "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
+      "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
       7
     ]
   ],
@@ -1221,7 +1221,7 @@
     "y",
     "assign",
     [
-      "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
+      "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
       13
     ]
   ],
@@ -4406,7 +4406,7 @@
     "y",
     "assign",
     [
-      "E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
+      "E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom_defconfig",
       14
     ]
   ],

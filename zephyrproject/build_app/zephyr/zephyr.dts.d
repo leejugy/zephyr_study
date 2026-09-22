@@ -1,5 +1,5 @@
 empty_file.o: E:/zephyr/zephyrproject/zephyr/misc/empty_file.c \
- E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom/stm32_h743xih6_custom.dts \
+ E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom/stm32_h743xih6_custom.dts \
  E:/zephyr/zephyrproject/zephyr/dts/arm/st/h7/stm32h743Xi.dtsi \
  E:/zephyr/zephyrproject/zephyr/dts/arm/st/h7/stm32h743.dtsi \
  E:/zephyr/zephyrproject/zephyr/dts/arm/st/h7/stm32h742.dtsi \

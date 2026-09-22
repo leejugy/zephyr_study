@@ -144,6 +144,30 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "E:/zephyr/zephyrproject/boards/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/zephyr/zephyrproject/boards/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "E:/zephyr/zephyrproject/boards/lib/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/zephyr/zephyrproject/boards/lib/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/zephyr/zephyrproject/boards/share/cps/ZephyrBuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "E:/zephyr/zephyrproject/boards/share/cps/zephyrbuild.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "E:/zephyr/zephyrproject/bootloader/ZephyrBuildConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -384,6 +408,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find_package-v1"
     backtrace:
@@ -543,6 +568,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -657,6 +683,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find_package-v1"
     backtrace:
@@ -1903,6 +1930,30 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
+        path: "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/Zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/lib/cps/zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/Zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/share/cps/zephyr-sdk.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
         path: "C:/Users/Administrator/zephyr-sdk-1.0.1/cmake/Zephyr-sdkConfig.cmake"
         mode: "config"
         reason: "insufficient_version"
@@ -1992,6 +2043,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2080,6 +2132,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/gperf.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/gperf.exe"
@@ -2292,6 +2345,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2380,6 +2434,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/openocd.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/openocd.exe"
@@ -2469,6 +2524,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2557,6 +2613,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/bossac.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/bossac.exe"
@@ -2753,6 +2810,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/bossac.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/bossac.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/bossac"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bossac.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bossac.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/bossac"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -2822,6 +2882,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -2912,6 +2973,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/imgtool.py.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/imgtool.py.exe"
@@ -3038,6 +3100,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3126,6 +3189,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/winpty.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/winpty.exe"
@@ -3322,6 +3386,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/winpty.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/winpty.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/winpty"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/winpty.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/winpty.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/winpty"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -3391,6 +3458,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3487,6 +3555,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3575,6 +3644,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/dtc.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/dtc.exe"
@@ -3787,6 +3857,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -3876,6 +3947,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/ccache.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/ccache.exe"
@@ -4072,6 +4144,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/ccache.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/ccache.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/ccache"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -4141,6 +4216,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4237,6 +4313,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4333,6 +4410,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4429,6 +4507,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4525,6 +4604,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4621,6 +4701,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4717,6 +4798,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4813,6 +4895,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -4909,6 +4992,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5005,6 +5089,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5101,6 +5186,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5197,6 +5283,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5293,6 +5380,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -5395,6 +5483,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/ninja-build.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/ninja-build.exe"
@@ -5649,6 +5738,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -5747,6 +5837,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -5855,6 +5946,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-dlltool.exe"
@@ -6027,6 +6119,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-dlltool.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-dlltool.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-dlltool"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-dlltool.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-dlltool.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-dlltool"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/dlltool.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/dlltool.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/dlltool"
@@ -6196,6 +6291,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -6278,6 +6374,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.com"
     found: "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-addr2line.exe"
@@ -6349,6 +6446,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -6431,6 +6529,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-tapi.exe"
@@ -6603,6 +6702,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-tapi.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-tapi.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-tapi"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-tapi.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-tapi.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-tapi"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/tapi.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/tapi.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/tapi"
@@ -6774,6 +6876,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/tapi.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/tapi.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/tapi"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
     found: false
     search_context:
       CMAKE_PREFIX_PATH:
@@ -6843,6 +6948,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -6927,6 +7033,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.3.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.3.exe"
@@ -7099,6 +7206,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.3.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.3.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.3"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.3.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.3.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.3"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14"
@@ -7270,6 +7380,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar14"
@@ -7441,6 +7554,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
     found: "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
     search_context:
@@ -7511,6 +7627,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -7595,6 +7712,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.3.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.3.exe"
@@ -7767,6 +7885,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.3.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.3.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.3"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.3.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.3.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.3"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14"
@@ -7938,6 +8059,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib14"
@@ -8109,6 +8233,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
     found: "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
     search_context:
@@ -8179,6 +8306,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -8277,6 +8405,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "message-v1"
     backtrace:
@@ -8387,6 +8516,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.3.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.3.exe"
@@ -8559,6 +8689,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.3.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.3.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.3"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.3.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.3.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.3"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-14"
@@ -8730,6 +8863,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar14"
@@ -8901,6 +9037,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.com"
     found: "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe"
     search_context:
@@ -8971,6 +9110,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -9055,6 +9195,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.3.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.3.exe"
@@ -9227,6 +9368,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.3.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.3.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.3"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.3.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.3.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.3"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-14"
@@ -9398,6 +9542,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib14.com"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib14.exe"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib14"
@@ -9569,6 +9716,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib14.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib14.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib14"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib14.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib14.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib14"
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.com"
     found: "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe"
     search_context:
@@ -9639,6 +9789,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
   -
     kind: "find-v1"
     backtrace:
@@ -9735,6 +9886,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -9839,6 +9991,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar-.com"
@@ -10012,6 +10165,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-"
       - "/bin/arm-zephyr-eabi-gcc-ar-.com"
       - "/bin/arm-zephyr-eabi-gcc-ar-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ar-"
@@ -10186,6 +10342,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ar-"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ar-"
       - "/bin/arm-zephyr-eabi-gcc-ar-.com"
       - "/bin/arm-zephyr-eabi-gcc-ar-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ar-"
@@ -10259,6 +10418,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -10346,6 +10506,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/gnu/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib-.com"
@@ -10519,6 +10680,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.com"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-"
@@ -10693,6 +10857,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/arm-zephyr-eabi-gcc-ranlib-"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/arm-zephyr-eabi-gcc-ranlib-"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.com"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-.exe"
       - "/bin/arm-zephyr-eabi-gcc-ranlib-"
@@ -10766,6 +10933,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -10852,6 +11020,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/ccache.com"
@@ -11049,6 +11218,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/ccache.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/ccache.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/ccache"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/ccache"
       - "/bin/ccache.com"
       - "/bin/ccache.exe"
       - "/bin/ccache"
@@ -11121,6 +11293,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -11209,6 +11382,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
       - "E:/zephyr/zephyrproject/zephyr/scripts/build/"
     searched_directories:
@@ -11407,6 +11581,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/gen_kobject_list.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/gen_kobject_list.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/gen_kobject_list"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list"
       - "/bin/gen_kobject_list.com"
       - "/bin/gen_kobject_list.exe"
       - "/bin/gen_kobject_list"
@@ -11608,6 +11785,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/gen_kobject_list.py.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/gen_kobject_list.py.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/gen_kobject_list.py"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/gen_kobject_list.py"
       - "/bin/gen_kobject_list.py.com"
       - "/bin/gen_kobject_list.py.exe"
       - "/bin/gen_kobject_list.py"
@@ -11682,6 +11862,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -11768,6 +11949,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/puncover.com"
@@ -11965,6 +12147,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/puncover.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/puncover.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/puncover"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/puncover.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/puncover.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/puncover"
       - "/bin/puncover.com"
       - "/bin/puncover.exe"
       - "/bin/puncover"
@@ -12037,6 +12222,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -12123,6 +12309,7 @@ events:
       - "C:/Users/Administrator/.zinstaller/tools/openocds/openocd-zephyr/bin/"
       - "C:/Users/Administrator/AppData/Local/PowerToys/DSCModules/"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
       - "/bin/"
     searched_directories:
       - "C:/Users/Administrator/zephyr-sdk-1.0.1/hosttools/qemu/bin/pahole.com"
@@ -12320,6 +12507,9 @@ events:
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/pahole.com"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/pahole.exe"
       - "C:/ST/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/pahole"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pahole.com"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pahole.exe"
+      - "C:/Users/Administrator/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/pahole"
       - "/bin/pahole.com"
       - "/bin/pahole.exe"
       - "/bin/pahole"
@@ -12392,6 +12582,7 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
       CMAKE_SYSTEM_PROGRAM_PATH:
         - "/bin"
@@ -12590,5 +12781,6 @@ events:
         - "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\DSCModules\\"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\ST\\STM32CubeCLT_1.19.0\\GNU-tools-for-STM32\\bin"
+        - "c:\\Users\\Administrator\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Zephyr-Kernel"
 ...

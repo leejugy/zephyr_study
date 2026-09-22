@@ -27,7 +27,10 @@ APPLICATION_SOURCE_DIR:PATH=E:/zephyr/zephyrproject/apps/ipc
 BOARD:STRING=stm32_h743xih6_custom
 
 //Main board directory for board (stm32_h743xih6_custom)
-BOARD_DIR:PATH=E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom
+BOARD_DIR:PATH=E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom
+
+//No help, variable specified on the command line.
+BOARD_ROOT:UNINITIALIZED=E:/zephyr/zephyrproject/
 
 //Path to a program.
 BOSSAC:FILEPATH=BOSSAC-NOTFOUND
@@ -444,7 +447,7 @@ bootloader_SOURCE_DIR:STATIC=E:/zephyr/zephyrproject/apps/ipc
 ########################
 
 //List of board directories for board (stm32_h743xih6_custom)
-BOARD_DIRECTORIES:INTERNAL=E:/zephyr/zephyrproject/zephyr/boards/st/stm32_h743xih6_custom
+BOARD_DIRECTORIES:INTERNAL=E:/zephyr/zephyrproject/boards/stm32_h743xih6_custom
 //DT bindings root directories
 CACHED_DTS_ROOT_BINDINGS:INTERNAL=E:/zephyr/zephyrproject/zephyr/dts/bindings
 //ADVANCED property for variable: CMAKE_ADDR2LINE
